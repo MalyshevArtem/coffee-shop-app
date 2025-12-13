@@ -1,0 +1,53 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 60px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 990px) {
+    .heading {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 16px;
+    }
+}
+
+.phone {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-color);
+    margin-bottom: 30px;
+    letter-spacing: 0.05em;
+}
+
+.address, .email-text {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.email {
+    color: #000000;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

@@ -1,0 +1,44 @@
+{
+    "carousel": [
+        {
+            "image": "/images/carousel/1.jpg",
+            "heading": "coffee & moments",
+            "text": "Пространство вкуса, аромата и осознанного наслаждения кофе"
+        },
+        {
+            "image": "/images/carousel/2.jpg",
+            "heading": "свежеобжаренный кофе",
+            "text": "Спешелти кофе из отборных зерен для каждого дня"
+        },
+        {
+            "image": "/images/carousel/3.jpg",
+            "heading": "искусство кофе",
+            "text": "Эспрессо, фильтр и авторские напитки, созданные с вниманием"
+        }
+    ],
+    "info": {
+        "heading": "наше меню",
+        "descHeading": "Верим, что будущее — за осознанным кофе",
+        "description": "Мы работаем только с отборными кофейными зёрнами исключительного качества, которые раскрывают вкус без компромиссов. Наша цель — показать настоящий характер кофе через точную обжарку, выверенные рецепты и внимательную подачу, ведь влияние вкуса и ритуала на состояние человека трудно переоценить.",
+        "buttonText": "подробнее",
+        "image": "/images/coffee.jpg"
+    },
+    "contacts": {
+        "heading": "свяжитесь с нами",
+        "phone": "+79997779977",
+        "address": "ул. Большая Никитская, 24/1",
+        "email": "hello@coffee.com",
+        "socialMedia": [
+            {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/",
+                "image": "/images/instagram.svg"
+            },
+            {
+                "name": "Facebook",
+                "url": "https://www.facebook.com/",
+                "image": "/images/facebook.svg"
+            }
+        ]
+    }
+}

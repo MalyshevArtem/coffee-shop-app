@@ -1,0 +1,38 @@
+.container {
+    margin: 0 auto;
+    padding: 1.5rem 17px 0;
+    width: 77%;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+.subheading {
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #AEACA6;
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 1.25rem;
+    }
+
+    .subheading {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}

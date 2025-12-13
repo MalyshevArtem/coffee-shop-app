@@ -1,0 +1,15 @@
+{
+  "items" : [
+    { "name": "Эспрессо", "description": "Классический черный кофе", "price": 450, "image": "/images/menuItems/1.Espresso.jpg" },
+    { "name": "Американо", "description": "Эспрессо с добавлением воды", "price": 550, "image": "/images/menuItems/2.Americano.jpg" },
+    { "name": "Капучино", "description": "Кофе с молочной пенкой", "price": 650, "image": "/images/menuItems/3.Cappuccino.jpg" },
+    { "name": "Латте", "description": "Мягкий кофейно-молочный напиток", "price": 700, "image": "/images/menuItems/4.Latte.jpg" },
+    { "name": "Мокко", "description": "Кофе с шоколадом и молоком", "price": 750, "image": "/images/menuItems/5.Mocha.jpg" },
+    { "name": "Флэт уайт", "description": "Плотный эспрессо с молоком", "price": 750, "image": "/images/menuItems/6.FlatWhite.jpg" },
+    { "name": "Макиато", "description": "Эспрессо с каплей молочной пены", "price": 600, "image": "/images/menuItems/7.Macchiato.jpg" },
+    { "name": "Раф", "description": "Кофе со сливками и ванилью", "price": 750, "image": "/images/menuItems/8.Raf.jpg" },
+    { "name": "Глясе", "description": "Холодный кофе с мороженым", "price": 800, "image": "/images/menuItems/9.CoffeeIceCream.jpg" },
+    { "name": "Айс Латте", "description": "Охлажденный кофе с молоком и льдом", "price": 750, "image": "/images/menuItems/10.IceLatte.jpg" }
+  ]
+}
+
