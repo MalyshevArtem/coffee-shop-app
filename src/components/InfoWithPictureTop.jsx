@@ -3,7 +3,7 @@ import styles from "./InfoWithPictureTop.module.css";
 export default function InfoWithPictureTop({ info }) {
     const socialMedia = info.socialMedia.map(sm =>
         <a key={sm.name} href={sm.url} target="_blank">
-            <img src={sm.image} alt={sm.name} />
+            <img src={`${import.meta.env.BASE_URL}${sm.image}`} alt={sm.name} />
         </a>
     );
 
@@ -17,7 +17,7 @@ export default function InfoWithPictureTop({ info }) {
         <div className={styles.background}>
             <div className={styles.info}>
                 <div className={styles.image}>
-                    <img src={info.image} alt={info.heading} />
+                    <img src={`${import.meta.env.BASE_URL}${info.image}`} alt={info.heading} />
                 </div>
                 <div className={styles["social-media"]}>
                     {socialMedia}

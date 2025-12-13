@@ -29,7 +29,7 @@ export default function Carousel({ slides, interval = 7000 }) {
 
     return (
         <div className={styles.carousel}>
-            <img src={slides[current].image} alt={slides[current].heading} />
+            <img src={`${import.meta.env.BASE_URL}${slides[current].image}`} alt={slides[current].heading} />
             <div className={styles["carousel-heading"]}>
                 {slides[current].heading}
             </div>

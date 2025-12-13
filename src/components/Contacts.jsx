@@ -3,7 +3,7 @@ import styles from "./Contacts.module.css";
 export default function Contacts({ contacts }) {
     const socialMedia = contacts.socialMedia.map(sm =>
         <a key={sm.name} href={sm.url} target="_blank">
-            <img src={sm.image} alt={sm.name} />
+            <img src={`${import.meta.env.BASE_URL}${sm.image}`} alt={sm.name} />
         </a>
     );
 

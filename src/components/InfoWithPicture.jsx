@@ -16,7 +16,7 @@ export default function InfoWithPicture({ info }) {
                     </Link>
                 </div>
                 <div className={styles.image}>
-                    <img src={info.image} alt={info.heading} />
+                    <img src={`${import.meta.env.BASE_URL}${info.image}`} alt={info.heading} />
                 </div>
             </div>
         </div>
