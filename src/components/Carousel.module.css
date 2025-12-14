@@ -24,6 +24,13 @@
     }
 }
 
+@media (max-width: 700px) {
+
+    .carousel img {
+        width: 100%;
+    }
+}
+
 .carousel-heading {
     text-align: center;
     font-size: 40px;
